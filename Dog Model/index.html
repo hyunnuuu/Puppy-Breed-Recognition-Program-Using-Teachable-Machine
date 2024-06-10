@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>견종 검사</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 100px 0 0; /* Add 40px top margin */
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 40px); /* Adjust the height to exclude the added margin */
+            background-image: url("file:///C:/Users/user/Desktop/강아지.jpg"); /* Adjust the path to your image file */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            text-align: top;
+            max-width: 10000px;
+            padding: 100px;
+            border: 10px solid #ddd;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 50px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 40px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #webcam-container {
+            margin-top: 20px;
+        }
+
+        #label-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>견종 검사</h1>
+        <button type="button" onclick="init()">검사 시작</button>
+        <div id="webcam-container"></div>
+        <div id="label-container"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
