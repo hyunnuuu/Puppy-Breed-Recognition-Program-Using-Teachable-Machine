@@ -8,5 +8,5 @@
 - Teachable Machine 을 이용한 학습
 - Python을 이용하여 사용자 UI 제작
 - WebCam을 이용하여 인식
-- 테스트 실행
+- 테스트 실행  
 ![Image001](https://raw.githubusercontent.com/hyunnuuu/Puppy-Breed-Recognition-Program-Using-Teachable-Machine/main/5.png)
