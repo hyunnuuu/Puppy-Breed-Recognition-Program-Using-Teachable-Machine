@@ -9,7 +9,4 @@
 - Python을 이용하여 사용자 UI 제작
 - WebCam을 이용하여 인식
 - 테스트 실행
-![Image001](https://raw.githubusercontent.com/hyunnuuu/Parcel-Box/main/1.png)
-![Image002](https://raw.githubusercontent.com/hyunnuuu/Parcel-Box/main/2.png)
-![Image003](https://raw.githubusercontent.com/hyunnuuu/Parcel-Box/main/3.png)
-![Image004](https://raw.githubusercontent.com/hyunnuuu/Parcel-Box/main/4.png)
+![Image001](https://raw.githubusercontent.com/hyunnuuu/Puppy-Breed-Recognition-Program-Using-Teachable-Machine/main/5.png)
